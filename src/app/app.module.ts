@@ -9,8 +9,12 @@ import { matchesElement } from "@angular/animations/browser/src/render/shared";
 import { BankAccountComponent } from './bank-account/bank-account.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
+import { TrainingComponent } from './training/training.component';
+import { CurrentTrainingComponent } from './training/current-training/current-training.component';
+import { NewTrainingComponent } from './training/new-training/new-training.component';
+import { PastTrainingComponent } from './training/past-training/past-training.component';
 @NgModule({
-  declarations: [AppComponent, BankAccountComponent, SignupComponent, LoginComponent],
+  declarations: [AppComponent, BankAccountComponent, SignupComponent, LoginComponent, TrainingComponent, CurrentTrainingComponent, NewTrainingComponent, PastTrainingComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
