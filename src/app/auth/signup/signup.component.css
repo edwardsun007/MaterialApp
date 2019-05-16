@@ -1,3 +1,15 @@
+/*this works because section is block element
+its width is entire page, so when you limit width for mat-form, its going to be centered
+*/
+mat-form-field {
+  width: 300px;
+}
+
+/* .signup-form {
+  width: 300px;
+  border: 1px solid black;
+} */
+
 #container {
   display: flex;
   width: 100%;
@@ -21,10 +33,12 @@
 
 #child1 {
   background-color: red;
+  /* flex: 1  specify how much proportion this flex item take */
 }
 
 #child2 {
   background-color: green;
+  /* flex: 2  */
 }
 
 #child3 {
