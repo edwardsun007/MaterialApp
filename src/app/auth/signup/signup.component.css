@@ -21,14 +21,13 @@ mat-form-field {
   flex-start push to the beginning
   flex-end pushes to the end
   */
-  align-items: center;
+  align-items: left;
   /*this set your cross axis*/
 }
 
 .child {
   width: 200px;
   height: 200px;
-
 }
 
 #child1 {

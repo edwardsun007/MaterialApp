@@ -1,4 +1,8 @@
 {
+
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+
   // Controls if quick suggestions should show up while typing
   "editor.quickSuggestions": {
     "other": true,
@@ -29,12 +33,8 @@
 
   // Enable parameter hints
   "editor.parameterHints.enabled": true,
-  // Configures if the built-in HTML language suggests Angular V1 tags and properties.
-  "html.suggest.angular1": true,
-
-  // Configures if the built-in HTML language suggests Ionic tags, properties and values.
-  "html.suggest.ionic": true,
-
   // Configures if the built-in HTML language suggests HTML5 tags, properties and values.
-  "html.suggest.html5": true
+  "html.suggest.html5": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true
 }
